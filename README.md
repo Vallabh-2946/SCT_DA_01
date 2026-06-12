@@ -1,86 +1,82 @@
-# SCT_DA_01 - Walmart Sales Analysis Dashboard
+# SCT_DA_03 - Titanic Data Visualization
 
 ## Overview
+This project focuses on Exploratory Data Analysis (EDA) and Data Visualization using the Titanic Dataset. Various visualization techniques were used to identify trends, patterns, and relationships among different passenger attributes and survival outcomes.
 
-This project focuses on analyzing Walmart sales data using Microsoft Excel. Pivot Tables, Pivot Charts, and a Dashboard were created to identify sales trends, compare holiday and non-holiday sales, and evaluate store performance.
+## Tools & Libraries Used
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-## Objective
+## Dataset
+The Titanic dataset contains passenger information such as:
+- Passenger ID
+- Survival Status
+- Passenger Class
+- Name
+- Sex
+- Age
+- Fare
+- Family Information
 
-The objective of this task was to:
+## Visualizations Performed
 
-* Analyze Walmart sales data
-* Create Pivot Tables for data summarization
-* Build Pivot Charts for visualization
-* Develop an interactive dashboard
-* Generate business insights from sales data
+### 1. Dataset Preview
+Displays the first few records of the dataset.
 
-## Dataset Information
+![Dataset Preview](screenshots/Screenshot%202026-06-12%20110546.png)
 
-The dataset contains sales information from 45 Walmart stores.
+### 2. Survival Count
+Shows the number of passengers who survived and those who did not survive.
 
-### Features
+![Survival Count](screenshots/Screenshot%202026-06-12%20110704.png)
 
-* Store
-* Date
-* Weekly_Sales
-* Holiday_Flag
-* Temperature
-* Fuel_Price
-* CPI
-* Unemployment
+### 3. Passenger Class Distribution
+Illustrates the distribution of passengers across different classes.
 
-## Tools Used
+![Passenger Class Distribution](screenshots/Screenshot%202026-06-12%20110719.png)
 
-* Microsoft Excel
-* Pivot Tables
-* Pivot Charts
-* Dashboard Design
-* Git
-* GitHub
+### 4. Age Distribution
+Shows how passenger ages are distributed.
 
-## Analysis Performed
+![Age Distribution](screenshots/Screenshot%202026-06-12%20110735.png)
 
-### 1. Store-wise Sales Analysis
+### 5. Gender vs Survival
+Compares survival rates between male and female passengers.
 
-Created a Pivot Table and Column Chart to compare total weekly sales across stores.
+![Gender vs Survival](screenshots/Screenshot%202026-06-12%20110749.png)
 
-### 2. Holiday vs Non-Holiday Sales Analysis
+### 6. Correlation Heatmap
+Displays relationships between numerical variables in the dataset.
 
-Used a Pie Chart to visualize the contribution of holiday and non-holiday sales.
-
-### 3. Sales Trend Analysis
-
-Created a Line Chart to observe sales performance over time.
-
-### 4. Dashboard Creation
-
-Combined all visualizations into a single dashboard for easy interpretation.
-
-## Screenshots
-
-### Store-wise Sales Analysis
-
-![Store Sales](screenshots/Screenshot%202026-06-12%20095205.png)
-
-### Holiday vs Non-Holiday Sales
-
-![Holiday Analysis](screenshots/Screenshot%202026-06-12%20095219.png)
-
-### Sales Trend Analysis
-
-![Sales Trend](screenshots/Screenshot%202026-06-12%20095239.png)
-
-### Final Dashboard
-
-![Dashboard](screenshots/Screenshot%202026-06-12%20095310.png)
+![Correlation Heatmap](screenshots/Screenshot%202026-06-12%20110813.png)
 
 ## Key Insights
+- More passengers died than survived.
+- Most passengers traveled in Third Class.
+- Female passengers had a significantly higher survival rate than males.
+- Age distribution was concentrated between 20 and 40 years.
+- Fare and Passenger Class showed noticeable relationships with survival.
 
-* Non-holiday sales account for the majority of total revenue.
-* Sales performance varies significantly across stores.
-* Some stores consistently outperform others in terms of weekly sales.
-* Sales trends provide valuable information for business planning and decision-making.
+## Learning Outcomes
+- Exploratory Data Analysis (EDA)
+- Data Visualization using Matplotlib and Seaborn
+- Data Cleaning and Inspection
+- Correlation Analysis
+- Data Interpretation
 
-## Outcome
+## Project Structure
 
-Successfully developed a Walmart Sales Analysis Dashboard using Microsoft Excel, enabling effective visualization and interpretation of sales data through Pivot Tables and Charts.
+```
+SCT_DA_03/
+│
+├── Titanic-Dataset.csv
+├── data_visualization.ipynb
+├── README.md
+└── screenshots/
+```
+
+## Author
+**Vallabh**
